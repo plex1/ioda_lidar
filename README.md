@@ -52,6 +52,11 @@ The system comprised the following modules:
 - Soft core RiscV in low-cost FPGA
 - APD or SiPM detector options
 
+## Remarks
+- Design is not for compactness but for testablity and optimization
+- A high power pulsed laser diode and driver designed for lidar would greatly increase range and resolution
+- This has been an educational project to learn about: PCB design, RF electronics, CAD design, Optics, microcontrollers and Python
+
 ## Tools Used
 
 - PCBs: [KiCad](https://www.kicad.org/)
@@ -66,3 +71,7 @@ The system comprised the following modules:
 # Some Images
 ![IODA Breadboard](./images/ioda_breadboard.JPG)
 ![IODA Breadboard](./images/ioda_gimbal.JPG)
+
+# Results
+![IODA Breadboard](./images/2d_point_cloud.JPG)
+![IODA Breadboard](./images/3d_point_cloud.JPG)
