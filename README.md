@@ -2,9 +2,22 @@
 
 This project implemnts a time-of-flight lidar from scratch.
 
+## Main Specification
+
+| Parameter                            |         Value   |  Comment                    |
+|------------------------------------- |:---------------:|:----------------------------|
+| Resultion distance (signle shot)     | 10 cm           | temporal resolution ~700ps  |
+| Resultion distance (histogram mode)  | <3mm            | temporal resolution <20ps   |
+| Resolution angle                     | 0.1125°         | 200 steps per rev, 16 micro steps |
+| Pulse Length                         | 1ns             | FWHM                        |
+| Pulse Repeptition Frequency          | 10MHz           | configurable                |
+| Minimum Distance                     | 5cm             |                             |
+| Maximum Distance                     | >10m            | white surface               |
+| Field of view                        | 360° 2-axis     | only obstructed by PCB      |
+
 ## Components and Links
 
-It comprised the following modules
+The system comprised the following modules:
 
 - [Optical Transceiver PCB (Tof)](https://github.com/plex1/Tof_PCB)
   - Laser: Infrared 850nm high speed
@@ -30,7 +43,14 @@ It comprised the following modules
 - [Python Software](https://github.com/plex1/ioda_control_sw)
   - Coordination of gimbal positio and time-of-flight data
   - Point cloud generation
-  - [Software](https://github.com/plex1/ioda_control_sw)
+ 
+## Highlights
+
+- 2-axis gimbal covering full 360 degrees field of view
+- time-to-digital converter implemented within low cost FPGA including calibration thereof
+- Common control and status interface between SW and FPGA modules (Gepin)
+- Soft core RiscV in low-cost FPGA
+- APD or SiPM detector options
 
 ## Tools Used
 
@@ -38,9 +58,11 @@ It comprised the following modules
 - Mechanics: Autodesk Fusion 360
 - FPGA: [Yosys](https://github.com/YosysHQ/yosys) and [NextPnR](https://github.com/YosysHQ/nextpnr)
 - Microcontroller: [Arduino](https://www.arduino.cc) and Atmel Visual Studio
-- 
+- Control and Status Registers: [Cheby](https://gitlab.cern.ch/be-cem-edl/common/cheby)
+  
 ## Block Diagram
 ![IODA Block Level Block Diagram](./images/ioda_block_diagram_top.png)
 
 # Some Images
 ![IODA Breadboard](./images/ioda_breadboard.JPG)
+![IODA Breadboard](./images/ioda_gimbal.JPG)
