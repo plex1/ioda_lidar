@@ -13,7 +13,7 @@ This project implemnts a time-of-flight lidar from scratch.
 | Pulse Repeptition Frequency          | 10MHz           | configurable                |
 | Minimum Distance                     | 5cm             |                             |
 | Maximum Distance                     | >10m            | white surface               |
-| Field of view                        | 360° 2-axis     | only obstructed by PCB      |
+| Field of view                        | 360°, 2-axis    | only obstructed by PCB      |
 
 ## Components and Links
 
@@ -46,22 +46,24 @@ The system comprised the following modules:
  
 ## Highlights
 
-- 2-axis gimbal covering full 360 degrees field of view
+- compact 2-axis gimbal covering full 360 degrees field of view
 - time-to-digital converter implemented within low cost FPGA including calibration thereof
-- Common control and status interface between SW and FPGA modules (Gepin)
-- Soft core RiscV in low-cost FPGA
+- Common control and status interface in SW and FPGA modules (Gepin)
+- Soft core RiscV in low-cost FPGA ([VexRiscV](https://github.com/SpinalHDL/VexRiscv))
 - APD or SiPM detector options
 
 ## Remarks
-- Design is not for compactness but for testablity and optimization
+
+
+- This has been an educational project to learn about: PCB design, RF electronics, FPGA design, CAD design, Optics, microcontrollers and Python
+- Design is not done for a product but for testablity and modularity
 - A high power pulsed laser diode and driver designed for lidar would greatly increase range and resolution
-- This has been an educational project to learn about: PCB design, RF electronics, CAD design, Optics, microcontrollers and Python
 
 ## Tools Used
 
 - PCBs: [KiCad](https://www.kicad.org/)
 - Mechanics: Autodesk Fusion 360
-- FPGA: [Yosys](https://github.com/YosysHQ/yosys) and [NextPnR](https://github.com/YosysHQ/nextpnr)
+- FPGA: [SpinalHDL](https://github.com/SpinalHDL/SpinalHDL), [Yosys](https://github.com/YosysHQ/yosys), [NextPnR](https://github.com/YosysHQ/nextpnr)
 - Microcontroller: [Arduino](https://www.arduino.cc) and Atmel Visual Studio
 - Control and Status Registers: [Cheby](https://gitlab.cern.ch/be-cem-edl/common/cheby)
   
