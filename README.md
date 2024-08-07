@@ -26,7 +26,7 @@ The system comprised the following modules:
     - [Microcontroller software](https://github.com/plex1/TofPCB_SW)
 - [Motor PCB](https://github.com/plex1/motor_control_pcb)
   - Microcontroller for profile and step/direction generation
-    - [Microcontroller software](https://github.com/plex1/stepper)
+    - [Microcontroller software](https://github.com/plex1/stepper_controller)
   - PWM driver ICs
 - [Signal Diver PCB](https://github.com/plex1/ice40_driver_pcb)
   - Drivers and recieved 50 Ohms high speed signal
