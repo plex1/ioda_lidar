@@ -1,6 +1,6 @@
 # IODA Lidar
 
-This project implemnts a time-of-flight lidar from scratch.
+This project implements a time-of-flight lidar from scratch.
 
 ## Main Specification
 
@@ -49,8 +49,9 @@ The system comprised the following modules:
 - compact 2-axis gimbal covering full 360 degrees field of view
 - time-to-digital converter implemented within low cost FPGA including calibration thereof
 - Common control and status interface in SW and FPGA modules (Gepin)
+- Automated testing environment in Python
 - Soft core RiscV in low-cost FPGA ([VexRiscV](https://github.com/SpinalHDL/VexRiscv))
-- APD or SiPM detector options
+- APD or SiPM photo detector options
 
 ## Remarks
 
@@ -75,5 +76,12 @@ The system comprised the following modules:
 ![IODA Breadboard](./images/ioda_gimbal.JPG)
 
 # Results
+Configuration with OPV310 laser and MTAPD-06-013 photo diode.
+
+2d scan:
+
 ![IODA Breadboard](./images/2d_point_cloud.JPG)
+
+3d point cloud:
+
 ![IODA Breadboard](./images/3d_point_cloud.JPG)
