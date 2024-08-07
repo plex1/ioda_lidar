@@ -37,7 +37,7 @@ The system comprised the following modules:
   - histogram measurement
   - [FPGA logicware](https://github.com/plex1/SpinalDevTof)
 - Raspberry Pi 3 Model B
-  - For programming and debugging
+  - For programming, debugging and communication, see [raspice40](https://github.com/plex1/raspice40)
 - 2-axis Gimbal
   - indcluding focusing and ajustement optics
 - [Python Software](https://github.com/plex1/ioda_control_sw)
