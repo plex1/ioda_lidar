@@ -6,7 +6,7 @@ This project implements a time-of-flight lidar from scratch.
 
 | Parameter                            |         Value   |  Comment                    |
 |------------------------------------- |:---------------:|:----------------------------|
-| Resultion distance (signle shot)     | 10 cm           | temporal resolution ~700ps  |
+| Resultion distance (single shot)     | 10 cm           | temporal resolution ~700ps  |
 | Resultion distance (histogram mode)  | <3mm            | temporal resolution <20ps   |
 | Resolution angle                     | 0.1125°         | 200 steps per rev, 16 micro steps |
 | Pulse Length                         | 1ns             | FWHM                        |
@@ -19,7 +19,7 @@ This project implements a time-of-flight lidar from scratch.
 
 The system comprised the following modules:
 
-- [Optical Transceiver PCB (Tof)](https://github.com/plex1/Tof_PCB)
+- [ToF PCB (Optical transceiver)](https://github.com/plex1/Tof_PCB)
   - Laser: Infrared 850nm high speed
   - Photo Diode: 2 options - either APD or Si photo multiplier array
   - Microcontroller for configuration and monitoring purposes
