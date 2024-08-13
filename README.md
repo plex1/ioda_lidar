@@ -39,7 +39,7 @@ The system comprised the following modules:
   - [FPGA logicware and software](https://github.com/plex1/SpinalDevTofProject)
 - Raspberry Pi 3 Model B
   - For programming, debugging and communication, see [raspice40](https://github.com/plex1/raspice40)
-- 2-axis Gimbal
+- [2-axis Gimbal](https://github.com/plex1/ioda_gimbal)
   - indcluding focusing and ajustement optics
 - [Python Software](https://github.com/plex1/ioda_control_sw)
   - Coordination of gimbal positio and time-of-flight data
