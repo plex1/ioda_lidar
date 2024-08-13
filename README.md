@@ -79,9 +79,10 @@ The system comprised the following modules:
 # Results
 Configuration with OPV310 laser and MTAPD-06-013 photo diode.
 
-2d scan:
+2d scans (scanner at origin):
 
 ![IODA Breadboard](./images/2d_point_cloud.JPG)
+![IODA Breadboard](./images/2d_point_cloud2.PNG)
 
 3d point cloud:
 
