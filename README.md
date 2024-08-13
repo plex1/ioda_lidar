@@ -49,7 +49,7 @@ The system comprised the following modules:
  
 ## Highlights
 
-- compact 2-axis gimbal covering full 360 degrees field of view
+- compact 2-axis gimbal covering full 3D / 360° field of view
 - time-to-digital converter (TDC) implemented within low cost FPGA including calibration thereof
 - Common control and status interface in SW and FPGA modules (Gepin)
 - Automated testing environment in Python
