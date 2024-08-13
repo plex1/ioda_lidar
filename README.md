@@ -2,6 +2,8 @@
 
 This project implements a time-of-flight lidar from scratch.
 
+Could also serve as a platform for optical communication with pulse position modulation (PPM).
+
 ## Main Specification
 
 | Parameter                            |         Value   |  Comment                    |
@@ -34,7 +36,7 @@ The system comprised the following modules:
 - [FPGA board (Olimex)](https://www.olimex.com/Products/FPGA/iCE40/iCE40HX8K-EVB/open-source-hardware)
   - Softcore RiscV CPU
   - Tx Sync generation
-  - time to digital converter implemented with LUTs (between Rx and Tx Sync)
+  -  to digital converter implemented with LUTs (between Rx and Tx Sync)
   - histogram measurement
   - [FPGA logicware and software](https://github.com/plex1/SpinalDevTofProject)
 - Raspberry Pi 3 Model B
@@ -48,7 +50,7 @@ The system comprised the following modules:
 ## Highlights
 
 - compact 2-axis gimbal covering full 360 degrees field of view
-- time-to-digital converter implemented within low cost FPGA including calibration thereof
+- time-to-digital converter (TDC) implemented within low cost FPGA including calibration thereof
 - Common control and status interface in SW and FPGA modules (Gepin)
 - Automated testing environment in Python
 - Soft core RiscV in low-cost FPGA ([VexRiscV](https://github.com/SpinalHDL/VexRiscv))
