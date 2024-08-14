@@ -8,11 +8,11 @@ Could also serve as a platform for optical communication with pulse position mod
 
 | Parameter                            |         Value   |  Comment                    |
 |------------------------------------- |:---------------:|:----------------------------|
-| Resultion distance (single shot)     | 10 cm           | temporal resolution ~700ps  |
-| Resultion distance (histogram mode)  | <3mm            | temporal resolution <20ps   |
+| Resolution distance (single shot)     | 10 cm           | temporal resolution ~700ps  |
+| Resolution distance (histogram mode)  | <3mm            | temporal resolution <20ps   |
 | Resolution angle                     | 0.1125°         | 200 steps per rev, 16 micro steps |
 | Pulse Length                         | 1ns             | FWHM                        |
-| Pulse Repeptition Frequency          | 10MHz           | configurable                |
+| Pulse Repetition Frequency           | 10MHz           | configurable                |
 | Minimum Distance                     | 5cm             |                             |
 | Maximum Distance                     | >10m            | white surface               |
 | Field of view                        | 360°, 2-axis    | only obstructed by PCB      |
@@ -31,7 +31,7 @@ The system comprised the following modules:
     - [Microcontroller software](https://github.com/plex1/stepper_controller)
   - PWM driver ICs
 - [Signal Diver PCB](https://github.com/plex1/ice40_driver_pcb)
-  - Drivers and recieved 50 Ohms high speed signal
+  - Drivers and received 50 Ohms high speed signal
   - Variable Delay IC for test and calibration purposes
 - [FPGA board (Olimex)](https://www.olimex.com/Products/FPGA/iCE40/iCE40HX8K-EVB/open-source-hardware)
   - Softcore RiscV CPU
@@ -42,9 +42,9 @@ The system comprised the following modules:
 - Raspberry Pi 3 Model B
   - For programming, debugging and communication, see [raspice40](https://github.com/plex1/raspice40)
 - [Opto-mechanics, 2-axis gimbal](https://github.com/plex1/ioda_gimbal)
-  - indcluding focusing and ajustement optics
+  - including focusing and adjustment optics
 - [Python Software](https://github.com/plex1/ioda_control_sw)
-  - Coordination of gimbal positio and time-of-flight data
+  - Coordination of gimbal position and time-of-flight data
   - Point cloud generation
  
 ## Highlights
@@ -60,7 +60,7 @@ The system comprised the following modules:
 
 
 - This has been an educational project to learn about: PCB design, RF electronics, FPGA design, CAD design, Optics, microcontrollers and Python
-- Design is not done for a product but for testablity and modularity
+- Design is not done for a product but for testability and modularity (prototype)
 - A high power pulsed laser diode and driver designed for lidar would greatly increase range and resolution
 
 ## Tools Used
