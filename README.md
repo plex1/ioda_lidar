@@ -30,7 +30,7 @@ The system comprised the following modules:
   - Microcontroller for profile and step/direction generation
     - [Microcontroller software](https://github.com/plex1/stepper_controller)
   - PWM driver ICs
-- [Signal Diver PCB](https://github.com/plex1/ice40_driver_pcb)
+- [Signal Driver PCB](https://github.com/plex1/ice40_driver_pcb)
   - Drivers and received 50 Ohms high speed signal
   - Variable Delay IC for test and calibration purposes
 - [FPGA board (Olimex)](https://www.olimex.com/Products/FPGA/iCE40/iCE40HX8K-EVB/open-source-hardware)
