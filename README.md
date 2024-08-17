@@ -1,4 +1,4 @@
-# IODA Lidar
+# IODA Open Source Lidar
 
 This project implements a time-of-flight lidar from scratch.
 
