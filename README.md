@@ -74,7 +74,7 @@ The system comprised the following modules:
 ## Block Diagram
 ![IODA Block Level Block Diagram](./images/ioda_block_diagram_top.png)
 
-# Some Images
+# Pictures
 ![IODA Breadboard](./images/ioda_breadboard.JPG)
 ![IODA Breadboard](./images/ioda_gimbal.JPG)
 
@@ -85,6 +85,9 @@ Configuration with OPV310 laser and MTAPD-06-013 photo diode.
 
 ![IODA Breadboard](./images/2d_point_cloud.JPG)
 ![IODA Breadboard](./images/2d_point_cloud2.PNG)
+
+# Further Information
+See also hackaday article: [3D Time-of-Flight Lidar from Scratch](https://hackaday.io/project/197464-3d-time-of-flight-lidar-from-scratch)
 
 3d point cloud:
 
