@@ -86,9 +86,10 @@ Configuration with OPV310 laser and MTAPD-06-013 photo diode.
 ![IODA Breadboard](./images/2d_point_cloud.JPG)
 ![IODA Breadboard](./images/2d_point_cloud2.PNG)
 
-# Further Information
-See also hackaday article: [3D Time-of-Flight Lidar from Scratch](https://hackaday.io/project/197464-3d-time-of-flight-lidar-from-scratch)
-
 3d point cloud:
 
 ![IODA Breadboard](./images/3d_point_cloud.JPG)
+
+# Further Information
+See also hackaday article: [3D Time-of-Flight Lidar from Scratch](https://hackaday.io/project/197464-3d-time-of-flight-lidar-from-scratch)
+
