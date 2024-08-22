@@ -8,8 +8,8 @@ Could also serve as a platform for optical communication with pulse position mod
 
 | Parameter                            |         Value   |  Comment                    |
 |------------------------------------- |:---------------:|:----------------------------|
-| Resolution distance (single shot)     | 10 cm           | temporal resolution ~700ps  |
-| Resolution distance (histogram mode)  | <3mm            | temporal resolution <20ps   |
+| Resolution distance (single shot)    | 10 cm           | temporal resolution ~700ps  |
+| Resolution distance (histogram mode) | <3mm            | temporal resolution <20ps   |
 | Resolution angle                     | 0.1125°         | 200 steps per rev, 16 micro steps |
 | Pulse Length                         | 1ns             | FWHM                        |
 | Pulse Repetition Frequency           | 10MHz           | configurable                |
@@ -49,7 +49,7 @@ The system comprised the following modules:
  
 ## Highlights
 
-- compact 2-axis gimbal covering full 3D / 360° field of view
+- compact 2-axis gimbal covering full 3D / 360° field of view, no moving electronics
 - time-to-digital converter (TDC) implemented within low cost FPGA including calibration thereof
 - Common control and status interface in SW and FPGA modules (Gepin)
 - Automated testing environment in Python
