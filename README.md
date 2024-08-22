@@ -36,7 +36,7 @@ The system comprised the following modules:
 - [FPGA board (Olimex)](https://www.olimex.com/Products/FPGA/iCE40/iCE40HX8K-EVB/open-source-hardware)
   - Softcore RiscV CPU
   - Tx Sync generation
-  -  to digital converter implemented with LUTs (between Rx and Tx Sync)
+  - time-to-digital converter implemented with LUTs (between Rx and Tx Sync)
   - histogram measurement
   - [FPGA logicware and software](https://github.com/plex1/SpinalDevTofProject)
 - Raspberry Pi 3 Model B
