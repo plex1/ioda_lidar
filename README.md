@@ -91,5 +91,6 @@ Configuration with OPV310 laser and MTAPD-06-013 photo diode.
 ![IODA Breadboard](./images/3d_point_cloud.JPG)
 
 # Further Information
-See also hackaday article: [3D Time-of-Flight Lidar from Scratch](https://hackaday.io/project/197464-3d-time-of-flight-lidar-from-scratch)
+- Hackaday article, incl pdf report: [3D Time-of-Flight Lidar from Scratch](https://hackaday.io/project/197464-3d-time-of-flight-lidar-from-scratch)
+- Youtube video: [Gimbal Movement Tests](https://www.youtube.com/watch?v=GpgHjfgOW7Y)
 
